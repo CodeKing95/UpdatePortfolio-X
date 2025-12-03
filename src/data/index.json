@@ -28,7 +28,7 @@
   "portfolio": [
     {
       "id": "1",
-      "src": "./img/placeholder-image.png",
+      "src": "./img/ecom.jpg",
       "title": "E-Commerce",
       "description": "This is an e-commerce website project that I have developed for the final product of my coding bootcamp.<br/><br/><strong>Tech Used:</strong> HTML, CSS, JavaScript, SCSS, React JS, Vite, Responsive Design",
       "link": "https://codeking95.github.io/Witze-Joke/",
@@ -36,30 +36,30 @@
     },
     {
       "id": "2",
-      "src": "./img/placeholder-image-1.png",
+      "src": "./img/air.png",
       "title": "Airline Managements System",
-      "description": "This is a morden airline management booking system. Since I love travelling via plane, this is the reason why i decided to make this project too.<br/><br/><strong>Tech Used:</strong> HTML, CSS, JavaScript, PHP, MySQL",
+      "description": "This is a morden airline management booking system. Since I love travelling via plane, this is the reason why i decided to make this project too.<br/><br/><strong>Tech Used:</strong> HTML, CSS, JavaScript, PHP, MySQL, Bootstrap",
       "link": "https://codeking95.github.io/flug/",
       "github": "https://www.youtube.com/shorts/XYgibLTqxs8"
 
     },
     {
       "id": "3",
-      "src": "./img/placeholder-image-2.png",
+      "src": "./img/ha.jpg",
       "title": "Joker App",
       "description": "As a child, I loved joke books - now I've developed my own joke app! I used a public API to dynamically load and display the jokes.<br/><br/><strong>Tech Used:</strong> JavaScript, SCSS, BEM, AJAX, VITE",
       "link": "https://comfy-sorbet-7bb1c8.netlify.app/"
     },
      {
       "id": "3",
-      "src": "./img/placeholder-image-2.png",
+      "src": "./img/movies.jpg",
       "title": "Joker App",
       "description": "As a child, I loved joke books - now I've developed my own joke app! I used a public API to dynamically load and display the jokes.<br/><br/><strong>Tech Used:</strong> JavaScript, SCSS, BEM, AJAX, VITE",
       "link": "https://comfy-sorbet-7bb1c8.netlify.app/"
     },
       {
       "id": "3",
-      "src": "./img/placeholder-image-2.png",
+      "src": "./img/weather.jpg",
       "title": "Joker App",
       "description": "As a child, I loved joke books - now I've developed my own joke app! I used a public API to dynamically load and display the jokes.<br/><br/><strong>Tech Used:</strong> JavaScript, SCSS, BEM, AJAX, VITE",
       "link": "https://comfy-sorbet-7bb1c8.netlify.app/"

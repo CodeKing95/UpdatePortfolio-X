@@ -27,28 +27,46 @@ export default function AboutMe() {
             ABOUT ME
           </h2>
 
-          <p
+           <p
             className="hero--section-description"
             data-aos="fade-up"
             data-aos-delay="400"
           >
-            I am a software Developer and I specialize in Frontend and Backend development. 
+           <li>Born and raised in Germany, I currently live in London, UK.</li>
           </p>
-             <p
+
+           <p
+            className="hero--section-description"
+            data-aos="fade-up"
+            data-aos-delay="400"
+          >
+           <li>I hold a Bachelor of Science degree in IT and have also completed a Software Development Coding Bootcamp.</li>
+          </p>
+    <p
             className="hero--section-description"
             data-aos="fade-up"
             data-aos-delay="400"
           >
             
-            I come from an IT Support background but since I discovered coding, I felt love in it and i like the idea about turning ideas into impactful software solutions. 
+           <li>Coming from an IT support background, I discovered my passion for coding and instantly fell in love with the process of turning ideas into meaningful software solutions.</li>
           </p>
+
+
+          <p
+            className="hero--section-description"
+            data-aos="fade-up"
+            data-aos-delay="400"
+          >
+          <li>I specialize in full-stack development, creating robust backends and intuitive and a user-focused frontends..</li>
+          </p>
+         
 
             <p
             className="hero--section-description"
             data-aos="fade-up"
             data-aos-delay="400"
           >
-           So i have decided to change my career into becoming a software developer and I have no regrets at all :)
+          <li>That passion inspired me to transition my career into software development—and I haven’t looked back since. 😊</li>
           </p>
 
           

@@ -16,6 +16,7 @@ export default function MySkills() {
           My Tech Skills
         </h2>
       </div>
+      
 
       <div className="skills--section--container">
         {data?.skills?.map((item, index) => (

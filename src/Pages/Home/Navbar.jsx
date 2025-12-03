@@ -6,13 +6,8 @@ import "aos/dist/aos.css";
 function Navbar() {
   const [navActive, setNavActive] = useState(false);
 
-  const toggleNav = () => {
-    setNavActive(!navActive);
-  };
-
-  const closeMenu = () => {
-    setNavActive(false);
-  };
+  const toggleNav = () => setNavActive(!navActive);
+  const closeMenu = () => setNavActive(false);
 
   useEffect(() => {
     AOS.init({
@@ -24,32 +19,31 @@ function Navbar() {
 
   useEffect(() => {
     const handleResize = () => {
-      if (window.innerWidth <= 500) {
-        closeMenu();
-      }
+      if (window.innerWidth <= 500) closeMenu();
     };
-   
-    window.addEventListener("resize", handleResize);
 
-    return () => {
-      window.removeEventListener("resize", handleResize);
-    };
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
   }, []);
 
   useEffect(() => {
-    if (window.innerWidth <= 1200) {
-      closeMenu();
-    }
+    if (window.innerWidth <= 1200) closeMenu();
   }, []);
 
   return (
     <nav className={`navbar ${navActive ? "active" : ""}`} data-aos="fade-down">
       <div data-aos="fade-right">
-        <img src="./img/logo1.png" alt="Logoipsum" witdh="50" height="50"/>
+        <img src="./img/logo1.png" alt="Logo" width="50" height="50" />
       </div>
+
+      {/* FIX: Added href="#" for accessibility */}
       <a
+        href="#"
         className={`nav__hamburger ${navActive ? "active" : ""}`}
-        onClick={toggleNav}
+        onClick={(e) => {
+          e.preventDefault();
+          toggleNav();
+        }}
         data-aos="fade-left"
       >
         <span className="nav__hamburger__line"></span>
@@ -57,10 +51,10 @@ function Navbar() {
         <span className="nav__hamburger__line"></span>
       </a>
 
-      <div className={`navbar--items ${navActive ? "active" : ""}`}
-      data-aos="fade-down"
+      <div
+        className={`navbar--items ${navActive ? "active" : ""}`}
+        data-aos="fade-down"
       >
-
         <ul>
           <li>
             <Link
@@ -76,7 +70,8 @@ function Navbar() {
               Home
             </Link>
           </li>
-             <li>
+
+          <li>
             <Link
               onClick={closeMenu}
               activeClass="navbar--active-content"
@@ -90,6 +85,7 @@ function Navbar() {
               About Me
             </Link>
           </li>
+
           <li>
             <Link
               onClick={closeMenu}
@@ -105,7 +101,7 @@ function Navbar() {
             </Link>
           </li>
 
-               <li>
+          <li>
             <Link
               onClick={closeMenu}
               activeClass="navbar--active-content"
@@ -119,7 +115,6 @@ function Navbar() {
               Skills
             </Link>
           </li>
-
 
           <li>
             <Link
@@ -137,8 +132,6 @@ function Navbar() {
           </li>
         </ul>
       </div>
-
-  
 
       <Link
         onClick={closeMenu}

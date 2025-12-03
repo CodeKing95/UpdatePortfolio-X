@@ -77,6 +77,15 @@ p {
   color: var(--github);
   background-color: var(--white);
 }
+
+.button-row {
+    display: flex;
+    gap: 20px; /* space between the buttons */
+    align-items: center;
+    justify-content: center; /* center them horizontally */
+    margin-top: 20px;
+}
+
 /* Global CSS Ends */
 /* Main Headings */
 
@@ -148,6 +157,7 @@ h2 {
 /* Section Titles Ends */
 
 /* Navbar Style Start */
+
 .navbar {
   position: fixed;
   width: 90%;
@@ -162,6 +172,7 @@ h2 {
   top: 0;
   left: 0;
   right: 0;
+  
 }
 .navbar--items > ul {
   list-style: none;
@@ -212,20 +223,43 @@ h2 {
 .hero--section--content--box > button {
   margin-top: 21.333px;
 }
-.hero--section--title {
-  color: var(--heading-color);
-  font-size: 74.667px;
-  font-weight: 700;
-  line-height: 90px;
-  align-self: stretch;
+.hero--section-title--color {
+    background: linear-gradient(
+        270deg,
+        red,
+        orange,
+        yellow,
+        green,
+        cyan,
+        blue,
+        violet,
+        red
+    );
+    background-size: 800% 800%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: rainbowText 8s linear infinite;
+    display: inline-block;
 }
-.hero--section--title--color {
-  color: var(--primary);
+
+/* Optional: add glow effect */
+.hero--section-title--color {
+    text-shadow: 0 0 10px rgba(255,255,255,0.3),
+                 0 0 20px rgba(255,255,255,0.2),
+                 0 0 30px rgba(255,255,255,0.1);
 }
+
+/* Keyframes for animated gradient */
+@keyframes rainbowText {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
 .hero--section-description {
   color: var(--darkblue);
-  font-size: 24px;
-  font-weight: 400;
+  font-size: 17px;
+  font-weight: 200;
   line-height: 36px;
 }
 .hero--section--img {
@@ -352,18 +386,21 @@ h2 {
   flex-direction: column;
   align-items: flex-start;
   gap: 80px;
+  
 }
 .portfolio--container-box {
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 100%;
+  
 }
 .portfolio--container {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   gap: 21.3px;
+  
 }
 .portfolio--section--container {
  display: flex;
@@ -379,6 +416,7 @@ h2 {
 .portfolio--section--img {
   border-radius: 8px;
   width: 100%;
+  
 }
 .portfolio--section--img > img {
   width: 100%;
@@ -394,6 +432,7 @@ h2 {
   cursor: pointer;
   border-top-left-radius: 12px;
   border-top-right-radius: 12px;
+  
 }
 .portfolio--section--card--content {
   display: flex;
@@ -402,6 +441,7 @@ h2 {
   align-items: flex-start;
   gap: 32px;
   align-self: stretch;
+  
 }
 .portfolio--section--title {
   color: var(--heading-color);
@@ -414,8 +454,11 @@ h2 {
   padding-bottom: 10.6px;
   font-weight: 600;
 }
-.portfolio--section--card:hover path {
-  stroke: #006b6a;
+
+
+.portfolio--section--card:hover {
+    transform: scale(1.05); /* zoom in 5% */
+    box-shadow: 0 15px 25px rgba(28, 8, 249, 0.2); /* subtle 3D effect */
 }
 /* Portfolio Ends */
 
