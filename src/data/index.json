@@ -31,69 +31,67 @@
       "src": "./img/ecom.jpg",
       "title": "E-Commerce",
       "description": "This is an e-commerce website project that I have developed for the final product of my coding bootcamp.<br/><br/><strong>Tech Used:</strong> HTML, CSS, JavaScript, SCSS, React JS, Vite, Responsive Design",
-      "link": "https://codeking95.github.io/Witze-Joke/",
-      "github": "https://github.com/CodeKing95"
+      "link": "",
+      "github": ""
     },
     {
       "id": "2",
       "src": "./img/air.png",
       "title": "Airline Managements System",
       "description": "This is a morden airline management booking system. Since I love travelling via plane, this is the reason why i decided to make this project too.<br/><br/><strong>Tech Used:</strong> HTML, CSS, JavaScript, PHP, MySQL, Bootstrap",
-      "link": "https://codeking95.github.io/flug/",
-      "github": "https://www.youtube.com/shorts/XYgibLTqxs8"
-
+      "link": "",
+      "github": ""
     },
     {
       "id": "3",
       "src": "./img/ha.jpg",
       "title": "Joker App",
       "description": "As a child, I loved joke books - now I've developed my own joke app! I used a public API to dynamically load and display the jokes.<br/><br/><strong>Tech Used:</strong> JavaScript, SCSS, BEM, AJAX, VITE",
-      "link": "https://comfy-sorbet-7bb1c8.netlify.app/"
+      "link": ""
     },
-     {
+    {
       "id": "3",
       "src": "./img/movies.jpg",
-      "title": "Joker App",
+      "title": "Movie App",
       "description": "As a child, I loved joke books - now I've developed my own joke app! I used a public API to dynamically load and display the jokes.<br/><br/><strong>Tech Used:</strong> JavaScript, SCSS, BEM, AJAX, VITE",
-      "link": "https://comfy-sorbet-7bb1c8.netlify.app/"
+      "link": ""
     },
-      {
+    {
       "id": "3",
       "src": "./img/weather.jpg",
-      "title": "Joker App",
+      "title": "Weather App",
       "description": "As a child, I loved joke books - now I've developed my own joke app! I used a public API to dynamically load and display the jokes.<br/><br/><strong>Tech Used:</strong> JavaScript, SCSS, BEM, AJAX, VITE",
-      "link": "https://comfy-sorbet-7bb1c8.netlify.app/"
+      "link": ""
     },
-      {
+    {
       "id": "3",
       "src": "./img/placeholder-image-2.png",
       "title": "Joker App",
       "description": "As a child, I loved joke books - now I've developed my own joke app! I used a public API to dynamically load and display the jokes. <br/><br/><strong>Tech Used:</strong> JavaScript, SCSS, BEM, AJAX, VITE",
-      "link": "https://comfy-sorbet-7bb1c8.netlify.app/"
+      "link": ""
     }
   ],
   "testimonial": [
-  {
-  "id": 1,
-  "heading": "Ernest Bevin College",
-  "description": "BTEC LEVEL 3 Information Technology ",
-  "author_name": "Final Grade",
-  "author_designation": "Double Distinction**"
-},
-{
-  "id": 2,
-  "heading": "Middlesex University",
-  "description": "Bachelor of Science Information Technology",
-  "author_name": "Final Grade",
-  "author_designation": "Upper Second Class Honors (2.1)"
-},
-{
-   "id": 3,
-   "heading": "DevKarriere",
-    "description": "Coding BootCamp",
-    "author_name": "Portfolio Projects",
-     "author_designation": "Web Development"
+    {
+      "id": 1,
+      "heading": "Ernest Bevin College",
+      "description": "BTEC LEVEL 3 Information Technology ",
+      "author_name": "Final Grade",
+      "author_designation": "Double Distinction**"
+    },
+    {
+      "id": 2,
+      "heading": "Middlesex University",
+      "description": "Bachelor of Science Information Technology",
+      "author_name": "Final Grade",
+      "author_designation": "Upper Second Class Honors (2.1)"
+    },
+    {
+      "id": 3,
+      "heading": "DevKarriere",
+      "description": "Coding BootCamp",
+      "author_name": "Portfolio Projects",
+      "author_designation": "Web Development"
     }
   ]
-  
 }
