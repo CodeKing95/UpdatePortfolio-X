@@ -49,7 +49,7 @@ p {
 .btn-outline-primary {
   color: var(--primary);
   background-color: var(--white);
-  border: 1px solid var(--primary);
+  border: 2px solid var(--primary);
 }
 .btn-outline-primary:hover {
   color: var(--white);

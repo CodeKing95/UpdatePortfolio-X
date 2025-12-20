@@ -3,7 +3,7 @@
     {
       "id": "1",
       "src": "./img/product-chain-1.png",
-      "title": "Front-End",
+      "title": "Front-End/Framework",
       "description": "HTML, CSS, JavaScript, TypeScript, Bootstrap, React JS, Tailwind, CMS"
     },
     {
@@ -30,7 +30,7 @@
       "id": "1",
       "src": "./img/ecom.jpg",
       "title": "E-Commerce",
-      "description": "This is an e-commerce website project that I have developed for the final product of my coding bootcamp.<br/><br/><strong>Tech Used:</strong> JavaScript, REACT JS & TypeScript.",
+      "description": "This is a modern e-commerce application project built using React & Typescript. It demonstrate best practices in frontend development, componnent-based architecture, and state management.<br/><br/><strong>Tech Used:</strong> JavaScript, REACT JS & TypeScript.",
       "link": "https://ecommercetechstack.netlify.app/",
       "github": "https://github.com/CodeKing95/EcommerceUpdate"
     },
@@ -38,7 +38,7 @@
       "id": "2",
       "src": "./img/air.png",
       "title": "Airline Managements System",
-      "description": "This is a morden airline management booking system. Since I love travelling via plane, this is the reason why i decided to make this project too.<br/><br/><strong>Tech Used:</strong> HTML, CSS, JavaScript, PHP, MySQL, Bootstrap",
+      "description": "The Airline Manangement CRUD System is a full-stack web application which is developed to manage airline operations such as flight management, bookings, and passenger's data.<br/><br/><strong>Tech Used:</strong> HTML, CSS, JavaScript, PHP, MySQL, Bootstrap",
       "link": "https://codeking95.github.io/AirlineSystem.PHP/Index.html",
       "github": "https://github.com/CodeKing95/AirlineSystem.PHP"
     },
