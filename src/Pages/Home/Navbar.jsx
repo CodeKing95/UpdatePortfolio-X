@@ -35,7 +35,7 @@ function Navbar() {
   return (
     <nav className={`navbar ${navActive ? "active" : ""}`} data-aos="fade-down">
       <div data-aos="fade-right">
-        <img src="./img/logo1.png" alt="Logo" width="50" height="50" />
+        <img src="./img/programming.png" alt="Logo" width="70" height="70" />
       </div>
 
       {/* FIX: Added href="#" for accessibility */}

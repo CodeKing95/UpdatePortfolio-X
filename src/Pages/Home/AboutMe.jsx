@@ -32,7 +32,7 @@ export default function AboutMe() {
             data-aos="fade-up"
             data-aos-delay="400"
           >
-           <li>I'm Nadir Ahmed and I was born and raised in Germany, I currently live in London, UK.</li>
+           <li>I'm Nadir Ahmed, a software developer based in London, UK, originally from Germany.</li>
           </p>
 
             <p
@@ -40,7 +40,7 @@ export default function AboutMe() {
             data-aos="fade-up"
             data-aos-delay="400"
           >
-           <li>I'm a software developer who builds responsive web applications using React, TypeScript, JavaScript and PHP, through hands-on projects. I enjoy creating a clean and neat, user-friendly interfaces and Backend performances.</li>
+           <li>I build responsive web applications using React, TypeScript, JavaScript, and PHP, with a strong focus on clean user interfaces and reliable backend performance.</li>
           </p>
 
            <p
@@ -48,16 +48,7 @@ export default function AboutMe() {
             data-aos="fade-up"
             data-aos-delay="400"
           >  
-           <li>Coming from an IT support background, I discovered my passion for coding and instantly fell in love with the process of turning ideas into meaningful software solutions.</li>
-          </p>
-
-
-           <p
-            className="hero--section-description"
-            data-aos="fade-up"
-            data-aos-delay="400"
-          >
-           <li>I have a BSc degree in IT and also I am a coding bootcamp graduate.</li>
+           <li>With a background in IT support, a BSc in IT, and a coding bootcamp, I discovered my passion for coding and turning ideas into meaningful software — and I haven't looked back since.</li>
           </p>
 
             <p
@@ -65,18 +56,9 @@ export default function AboutMe() {
             data-aos="fade-up"
             data-aos-delay="400"
           >
-          <li>That passion inspired me to transition my career from IT Support into software development—and I haven’t looked back since. 😊</li>
+          <li>I enjoy solving real-world problems through code and continuously improving my skills to build better software. Let's get connected and build something amazing together 😊</li>
           </p>
 
-          
-
-             <p
-            className="hero--section-description"
-            data-aos="fade-up"
-            data-aos-delay="400"
-          >
-            Let's get connected!
-          </p>
 
         </div>
       </div>

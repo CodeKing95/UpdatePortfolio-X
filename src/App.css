@@ -49,7 +49,7 @@ p {
 .btn-outline-primary {
   color: var(--primary);
   background-color: var(--white);
-  border: 2px solid var(--primary);
+  border: 1px solid var(--primary);
 }
 .btn-outline-primary:hover {
   color: var(--white);
@@ -157,29 +157,23 @@ h2 {
 /* Section Titles Ends */
 
 /* Navbar Style Start */
-/* ===============================
-   NAVBAR – CLEAN & MODERN
-================================ */
 
 .navbar {
   position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 70px;
+  width: 95%;
   z-index: 9999;
   display: flex;
-  align-items: center;
   justify-content: space-between;
-
-  padding: 0 1.5rem; /* FIXED */
+  align-items: center;
+  padding: 15px 85.333px;
   background: var(--white);
-
-  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.08);
-  transition: 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0px 5.333px 80px 0 rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  
 }
-
-/* NAV ITEMS */
 .navbar--items ul {
   display: flex;
   align-items: center;
@@ -218,94 +212,20 @@ h2 {
   background: #0d6efd;
   border-radius: 999px;
 }
-
-/* ===============================
-   HAMBURGER
-================================ */
-
-.nav__hamburger {
-  display: none;
-  flex-direction: column;
-  gap: 5px;
+/* Navbar Content */
+.navbar--content {
+  color: var(--darkblue);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
   cursor: pointer;
 }
-
-.nav__hamburger__line {
-  width: 26px;
-  height: 3px;
-  background: #0f172a;
-  border-radius: 999px;
-  transition: all 0.3s ease;
+.navbar--active-content {
+  color: var(--primary);
 }
-
-/* ===============================
-   MOBILE MENU
-================================ */
-
-@media (max-width: 992px) {
-  .nav__hamburger {
-    display: flex;
-  }
-
-  .navbar--items {
-    position: absolute;
-    top: 70px;
-    left: 0;
-    width: 100%;
-
-    background: white;
-    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
-
-    display: none;
-    flex-direction: column;
-    padding: 1.5rem 0;
-    animation: slideDown 0.3s ease;
-  }
-
-  .navbar--items.active {
-    display: flex;
-  }
-
-  .navbar--items ul {
-    flex-direction: column;
-    gap: 1.2rem;
-    text-align: center;
-  }
-
-  .navbar--content {
-    font-size: 1.05rem;
-  }
-
-  /* Hide CTA on mobile */
-  .btn {
-    display: none;
-  }
-}
-
-/* Small mobile spacing */
-@media (max-width: 768px) {
-  .navbar {
-    padding: 0 1rem;
-  }
-}
-
-/* ===============================
-   ANIMATIONS
-================================ */
-
-@keyframes slideDown {
-  from {
-    opacity: 0;
-    transform: translateY(-8px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-
 /* Navbar Styler Ends */
+
 
 /* Hero Section Style */
 .hero--section {
@@ -420,14 +340,14 @@ h2 {
   color: var(--darkblue);
 }
 .skills--section--img {
+  width: 72px;
+  height: 72px;
+  padding: 0;
   display: flex;
-  padding: 13.3px;
   justify-content: center;
   align-items: center;
-  gap: 13.3px;
   border-radius: 10.6px;
   background: #fff;
-  box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.1);
 }
 .skills--section--card--content {
   display: flex;
@@ -449,6 +369,12 @@ h2 {
   font-weight: 400;
   line-height: 32px;
 }
+
+.skills--section--img img{
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+}
 /* Skills Style Ends */
 
 /* About Us */
@@ -460,12 +386,11 @@ h2 {
   grid-template-columns: repeat(2, 1fr);
 }
 .about--section--img > img {
-  width: 65%;
-  height: 65%;
-  width: 250px;
+  width: 85%;
+  height: 85%;
+  width: 350px;
   border-radius: 15px;
   padding: 8px;
-  margin-left: 40px;
   background: linear-gradient(
     90deg,
     #ff0000,
@@ -524,12 +449,17 @@ h2 {
   width: 100%;
 }
 .portfolio--section--img {
-  border-radius: 8px;
   width: 100%;
+  height: 220px;
+  overflow: hidden;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
   
 }
 .portfolio--section--img > img {
   width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 .portfolio--section--card {
   display: flex;
@@ -571,7 +501,6 @@ h2 {
               0 0 40px rgba(96, 8, 249, 0.4),
               0 15px 25px rgba(84, 8, 249, 0.3);
 }
-
 /* Portfolio Ends */
 
 /* Testimonial */
